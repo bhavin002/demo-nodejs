@@ -7,7 +7,7 @@ require("./db/conn");
 
 const PORT = process.env.PORT;
 
-app.get("/", (req, res) => res.send("Express on Vercel"));
+app.get("/", (req, res) => res.send("Express on Vercel new one"));
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
